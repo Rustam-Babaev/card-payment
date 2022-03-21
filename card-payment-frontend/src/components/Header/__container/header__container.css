@@ -1,0 +1,10 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 74px;
+    width: calc(100% - 4.57%*2);
+    margin: 0 auto;
+    max-width: 1280px;
+}

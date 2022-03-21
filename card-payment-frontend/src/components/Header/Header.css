@@ -1,0 +1,16 @@
+@import url(./__container/header__container.css);
+@import url(./__logo/header__logo.css);
+@import url(./_type/header_type_main.css);
+@import url(./__links-container/header__links-container.css);
+@import url(./__link/header__link.css);
+.header {
+    position: static;
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
